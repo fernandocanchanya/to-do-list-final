@@ -1,0 +1,211 @@
+/*font-family: 'Khand', sans-serif;
+font-family: 'Open Sans', sans-serif;
+/* color: #FF0080, #FF4000,#0040FF, #bfbfbf, #6e6e6e, #000000 */
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+
+h1 {
+  font-size: 7em;
+  font-family: 'Khand', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.3em;
+}
+
+h2{
+  font-size: 3em;
+  font-family: 'Khand', sans-serif;
+  font-weight: 400;
+}
+
+h3{
+  font-weight: bold;
+  margin: 0px}
+
+p {
+  font-size: 0.8em;
+}
+
+
+
+/* MENU */
+
+.menu {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  padding: 0.3em 0em;
+  width: 100%;
+  background-color:#0040FF;;
+  color: white;
+}
+
+.menu1 {
+  width: 35px;
+  margin: auto;
+}
+
+.menu2{
+  text-align: center;
+  font-family: 'Khand', sans-serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  margin: auto;
+}
+
+.menu3 {
+  width: 35px;
+  margin: auto;
+}
+
+/* TRAVEL INFO */
+.travelinfo {
+  padding-top: 1em;
+  margin: 0.5em auto 0em auto;
+  text-align: center;
+  line-height: 0.05em;
+  color:#0040FF;
+  text-transform: uppercase;
+}
+
+/* TRAVEL DATE */
+.traveldate {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+
+}
+
+.traveldatemid {
+  grid-column-start: 2;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: middle;
+  color:#000000;
+  font-size: 1.5em;
+}
+.traveldateimage{
+  width: 20px;
+  height: 20px;
+  margin: auto 6px auto auto;
+
+}
+
+/* BUTTONS */
+.buttons {
+  margin: 1em 1em 1em 1em;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  font-size: 0.9em;
+
+}
+
+.bleft {
+  padding: 1em;
+  text-transform: uppercase;
+  margin: auto 0em;
+  border-right: 1px solid #0000ff;
+  color: #0000ff;
+  font-size: 0.9em;
+  text-decoration: underline;
+  line-height: 1em
+  }
+
+.filter{
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding-inline-start: 0px;
+  margin: 0em 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  color: #000000;
+  font-size: 0.7em;
+  line-height: 4em;
+  border-top: 1px solid #0000ff;
+  border-bottom: 1px solid #0000ff;
+
+  }
+
+
+
+.bright{
+  padding: 1em;
+  margin: 1em 0em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #0000ff;
+  font-size: 0.9em;
+
+
+}
+
+/* CARDS */
+.container{
+  list-style: none;
+  padding-inline-start: 0px;
+  margin: 2em;
+}
+.card {
+  display: grid;
+  grid-template-columns:15% 85%;
+  margin-bottom: 1.5em;
+  box-shadow: 0 6px 8px 0 #bfbfbf;
+  border: solid 1px #0000ff;
+}
+
+.card1{
+  margin-bottom: 1.5em;
+  border: solid 1px #0000ff;
+  padding: 2em;
+  text-align: center;
+  color: #0000ff;
+}
+.carduna1{
+  border: solid 1px #FF4000;
+  color: #FF4000;
+  box-shadow: 0 6px 8px 0 #bfbfbf;
+
+}
+
+.tag {
+ writing-mode: vertical-rl;
+ transform: rotate(180deg);
+ background-color: #0000ff;
+ color:#ffffff;
+ text-align: center;
+ text-transform: uppercase;
+ padding: 1em;
+ margin: 1.4em 0em;
+ font-size: 0.8em;
+}
+
+.unavailable{
+ writing-mode: vertical-rl;
+ transform: rotate(180deg);
+ background-color: #FF4000;
+ color:#ffffff;
+ text-align: center;
+ text-transform: uppercase;
+ padding: 1em;
+ margin: 1.4em 0em;
+ font-size: 0.8em;
+}
+
+.content {
+  background-color: white;
+  padding: 1em;
+}
+
+.contentbuttons {
+  display: grid;
+  grid-template-columns:80% 20%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 0.9em;
+  color: #bfbfbf;
+}
